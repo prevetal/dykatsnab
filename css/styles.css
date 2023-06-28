@@ -896,6 +896,17 @@ header .logo img
 }
 
 
+header .bottom .logo
+{
+    display: none;
+}
+
+header .bottom .logo img
+{
+    height: 46px;
+}
+
+
 
 header .contacts
 {
@@ -1684,6 +1695,50 @@ header .sub_menu a:hover,
 header .sub_menu a.active
 {
     background: #f6f6f6;
+}
+
+
+
+header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+
+    animation: moveDown .5s;
+
+    background: var(--bg);
+}
+
+
+header.fixed .data,
+header.fixed .links,
+header.fixed .categories
+{
+    display: none;
+}
+
+
+header.fixed .bottom .logo
+{
+    display: block;
+}
+
+
+header.fixed .catalog
+{
+    margin-right: auto;
+    margin-left: 60px;
+}
+
+
+@keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+    }
 }
 
 

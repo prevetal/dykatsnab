@@ -272,6 +272,41 @@
 
 
 
+    .header_wrap
+    {
+        height: auto !important;
+    }
+
+
+
+    header.fixed
+    {
+        animation: none;
+    }
+
+
+    header.fixed .data,
+    header.fixed .links,
+    header.fixed .categories
+    {
+        display: block;
+    }
+
+
+    header.fixed .bottom .logo
+    {
+        display: none;
+    }
+
+
+    header.fixed .catalog
+    {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
     /*-----------------
         Mob. header
     -----------------*/

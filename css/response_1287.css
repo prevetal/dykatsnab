@@ -297,7 +297,7 @@
 
     header .search
     {
-        width: 324px;
+        width: calc(100% - 664px);
     }
 
     header .search .input
