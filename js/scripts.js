@@ -63,12 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
 				loadOnTransitionStart: true,
 				loadPrevNext: true
 			},
-			pagination: {
-				el: '.swiper-pagination',
-				type: 'bullets',
-				clickable: true,
-				bulletActiveClass: 'active'
-			},
 			breakpoints: {
 				0: {
 					spaceBetween: 12,
