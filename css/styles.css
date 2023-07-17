@@ -3800,6 +3800,9 @@ aside
 {
     position: relative;
 
+    display: flex;
+    flex-direction: column;
+
     padding: 29px 23px 20px;
 
     transition: box-shadow .2s linear;
@@ -3882,12 +3885,23 @@ aside
 }
 
 
+.products .product .info
+{
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 0 auto;
+}
+
+
 .products .product .name
 {
     color: #333;
     font-size: 14px;
     font-weight: 600;
     line-height: 130.12%;
+
+    flex: 1 0 auto;
 }
 
 .products .product .name a
