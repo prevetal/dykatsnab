@@ -347,12 +347,6 @@
 
 
 
-    /*-------------
-        Sidebar
-    -------------*/
-
-
-
     /*------------
         Filter
     ------------*/
@@ -773,6 +767,53 @@
         right: 75px;
 
         margin-right: 0;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .title
+    {
+        font-size: 30px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .stats .row
+    {
+        margin-left: -80px;
+    }
+
+    .stats .row > *
+    {
+        margin-left: 80px;
+    }
+
+
+    .stats .item .name
+    {
+        font-size: 16px;
+    }
+
+    .stats .item .val:after
+    {
+        width: 48px;
+        height: 3px;
+        margin-top: 8px;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 60px;
+    }
+
+    .stats .item .val small
+    {
+        font-size: 40px;
     }
 
 

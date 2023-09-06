@@ -233,6 +233,14 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 	})
 
+	$('body').on('click', '.entity_check .form-group .checkbox', function(e) {
+		let _self = $(this)
+
+		_self.find('input').prop('checked')
+			? $('.checkout .entity_info').slideDown(300)
+			: $('.checkout .entity_info').slideUp(200)
+	})
+
 
 	// Личный кабинет
 	$('.orders .order .head').click(function (e) {

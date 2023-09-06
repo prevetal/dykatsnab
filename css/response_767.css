@@ -333,6 +333,41 @@
 
 
 
+    /*-----------
+        Stats
+    -----------*/
+    .stats .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .stats .row > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 44px;
+    }
+
+    .stats .item .val small
+    {
+        font-size: 30px;
+    }
+
+
+    .stats .item .name
+    {
+        margin-top: 24px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/

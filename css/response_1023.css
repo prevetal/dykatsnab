@@ -346,12 +346,6 @@
 
 
 
-    /*---------------
-        Page head
-    ---------------*/
-
-
-
     /*----------------
         Block head
     ----------------*/
@@ -479,6 +473,47 @@
     .main_slider .swiper-button-prev
     {
         right: 69px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .title
+    {
+        font-size: 28px;
+    }
+
+
+    .stats .row
+    {
+        margin-left: 0;
+
+        justify-content: space-between;
+    }
+
+    .stats .row > *
+    {
+        width: 212px;
+        margin-left: 0;
+    }
+
+
+    .stats .item .name
+    {
+        font-size: 15px;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 48px;
+    }
+
+    .stats .item .val small
+    {
+        font-size: 32px;
     }
 
 

@@ -179,6 +179,54 @@
 
 
 
+    /*-----------
+        Stats
+    -----------*/
+    .stats .title
+    {
+        font-size: 24px;
+    }
+
+
+    .stats .row
+    {
+        margin-bottom: -32px;
+    }
+
+    .stats .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    .stats .item
+    {
+        text-align: center;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 40px;
+    }
+
+    .stats .item .val:after
+    {
+        right: 0;
+        left: 0;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .stats .item .val small
+    {
+        font-size: 28px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/

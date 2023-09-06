@@ -3543,6 +3543,82 @@ aside
 
 
 
+/*-----------
+    Stats
+-----------*/
+.stats .title
+{
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 120.622%;
+
+    margin-bottom: 47px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.stats .row
+{
+    margin-bottom: -40px;
+    margin-left: -100px;
+
+    justify-content: center;
+}
+
+.stats .row > *
+{
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+
+.stats .item .val
+{
+    color: #2b3e82;
+    font-size: 73px;
+    font-weight: 800;
+    line-height: 120.622%;
+
+    position: relative;
+}
+
+.stats .item .val small
+{
+    font-size: 47px;
+    line-height: 120.622%;
+}
+
+.stats .item .val:after
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: block;
+
+    width: 51px;
+    height: 4px;
+    margin-top: 10px;
+
+    content: '';
+
+    background: #e7332b;
+}
+
+
+.stats .item .name
+{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 120.622%;
+
+    margin-top: 29px;
+}
+
+
+
 /*--------------
     Products
 --------------*/
